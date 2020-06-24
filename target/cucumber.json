@@ -3,11 +3,11 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2020-06-22T19:13:56.380Z",
+        "start_timestamp": "2020-06-24T19:02:11.733Z",
         "before": [
           {
             "result": {
-              "duration": 1533058000,
+              "duration": 1609181000,
               "status": "passed"
             },
             "match": {
@@ -16,7 +16,7 @@
           },
           {
             "result": {
-              "duration": 1174477000,
+              "duration": 1167379000,
               "status": "passed"
             },
             "match": {
@@ -31,7 +31,7 @@
         "after": [
           {
             "result": {
-              "duration": 5293000,
+              "duration": 26623000,
               "status": "passed"
             },
             "match": {
@@ -47,7 +47,7 @@
               }
             ],
             "result": {
-              "duration": 791168000,
+              "duration": 797607000,
               "status": "passed"
             },
             "match": {
@@ -60,7 +60,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4450158000,
+              "duration": 7655650000,
               "status": "passed"
             },
             "line": 84,
@@ -78,7 +78,7 @@
           },
           {
             "result": {
-              "duration": 3357486000,
+              "duration": 3328498000,
               "status": "passed"
             },
             "line": 85,
@@ -100,7 +100,7 @@
           },
           {
             "result": {
-              "duration": 3073490000,
+              "duration": 3943476000,
               "status": "passed"
             },
             "line": 86,
@@ -119,7 +119,7 @@
           {
             "result": {
               "error_message": "java.lang.NullPointerException\n\tat com.vytrack.utilities.DBUtils.getQueryResultMap(DBUtils.java:134)\n\tat com.vytrack.utilities.DBUtils.getRowMap(DBUtils.java:74)\n\tat com.vytrack.step_definitions.ContactStepDefsX.the_information_should_be_same_with_database(ContactStepDefsX.java:90)\n\tat ✽.the information \"mbrackstone9@example.com\" should be same with database(file:///Users/user/IdeaProjects/EU2CucumberSelenium/src/test/resources/features/Contacts.feature:87)\n",
-              "duration": 3205821000,
+              "duration": 3236072000,
               "status": "failed"
             },
             "line": 87,

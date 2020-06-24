@@ -50,8 +50,8 @@ Feature: Contacts page
       | password  | UserUser123 |
       | firstname | <firstName> |
       | lastname  | <lastName>  |
-    Then the user should be able to login
 
+    Then the user should be able to login
     Examples:
       | userType        | firstName | lastName |
       | user1           | John      | Doe      |
